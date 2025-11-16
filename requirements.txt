@@ -1,0 +1,7 @@
+streamlit
+pandas
+requests
+gpxpy
+folium
+streamlit-folium
+google-genai # Untuk Gemini API

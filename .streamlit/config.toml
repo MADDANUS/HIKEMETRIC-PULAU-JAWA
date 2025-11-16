@@ -1,0 +1,5 @@
+[global]
+# Menonaktifkan semua pesan cache/running yang otomatis muncul saat fungsi yang dicache dijalankan.
+# Ini akan menghilangkan pesan seperti "Running call_gemini_for_recommendation(...)."
+
+showWarningOnDirectExecution = false
