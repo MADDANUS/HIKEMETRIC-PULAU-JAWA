@@ -315,18 +315,20 @@ def apply_custom_style():
 #  SESSION STATE INIT
 # ─────────────────────────────────────────────
 for _k, _v in {
-    'analysis_run':       False,
-    'jalur_descriptions': {},
-    'current_gunung':     None,
-    'current_kebugaran':  None,
-    'gpx_data':           (None, None, [], []),
-    'weather_info':       (None, False),
-    'structured_weather': None,
-    'auto_run_gunung':    None,
-    'preselect_gunung':   None,
-    'gaya_pendakian':     'Tektok (PP dalam 1 hari)',
-    'ai_gaya':            {},
-    'twitter_sentiment':  {},
+    'analysis_run':           False,
+    'jalur_descriptions':     {},
+    'current_gunung':         None,
+    'current_kebugaran':      None,
+    'gpx_data':               (None, None, [], []),
+    'weather_info':           (None, False),
+    'structured_weather':     None,
+    'auto_run_gunung':        None,
+    'preselect_gunung':       None,
+    'gaya_pendakian':         'Tektok (PP dalam 1 hari)',
+    'ai_gaya':                {},
+    'twitter_sentiment':      {},
+    '_pending_auto_kebugaran': None,
+    '_slider_kebugaran':      'Rendah',   # widget-state key untuk select_slider
 }.items():
     if _k not in st.session_state:
         st.session_state[_k] = _v
@@ -749,23 +751,22 @@ def render_komunitas_twitter(gunung_name: str, tweets_df: pd.DataFrame, sentimen
 
         for idx, (_, row) in enumerate(show_tweets.iterrows()):
             text      = str(row.get('full_text', '')).strip()
-            user      = str(row.get('username', 'Pengguna X')).strip() or 'Pengguna X'
+
+            # ── Nama asli dari username, fallback ke user_id_str ──
+            _raw_user = str(row.get('username', '')).strip()
+            if not _raw_user or _raw_user.lower() in ('nan', 'none', ''):
+                _uid = str(row.get('user_id_str', '')).strip()
+                user = f"User_{_uid[-6:]}" if _uid else 'Pendaki'
+            else:
+                user = _raw_user.replace('_', ' ').replace('.', ' ').title()
+
             fav       = int(row.get('favorite_count', 0))
             rt        = int(row.get('retweet_count', 0))
             sentimen  = str(row.get('sentimen', 'Netral'))
             skor_rel  = int(row.get('relevansi_skor', 1))
-            created   = str(row.get('created_at', '')).strip()
 
             s_emoji, s_fc, s_bg = _sentimen_badge(sentimen)
-
-            # Warna garis atas kartu per sentimen
             top_color = {'Positif': '#43A047', 'Negatif': '#E53935'}.get(sentimen, '#9E9E9E')
-
-            try:
-                dt = datetime.datetime.strptime(created, '%a %b %d %H:%M:%S +0000 %Y')
-                waktu_str = dt.strftime('%d %b %Y')
-            except Exception:
-                waktu_str = created[:10] if len(created) >= 10 else 'Baru-baru ini'
 
             # Bersihkan teks
             display_text = re.sub(r'https?://\S+', '', text).strip()
@@ -780,7 +781,7 @@ def render_komunitas_twitter(gunung_name: str, tweets_df: pd.DataFrame, sentimen
                 for kw in kw_detected
             ])
 
-            # Indikator relevansi (dot 1–5, max skor ~5)
+            # Indikator relevansi (dot 1–5)
             rel_level = min(max(skor_rel, 1), 5)
             dots_html = ''.join([
                 f'<span style="display:inline-block;width:8px;height:8px;border-radius:50%;'
@@ -804,9 +805,8 @@ def render_komunitas_twitter(gunung_name: str, tweets_df: pd.DataFrame, sentimen
                                                 color:#1565C0;flex-shrink:0;font-weight:600;">𝕏</div>
                                     <div>
                                         <div style="font-weight:700;font-size:13px;color:#1a1a1a;">
-                                            @{user[:22]}
+                                            {user[:28]}
                                         </div>
-                                        <div style="font-size:11px;color:#999;">{waktu_str}</div>
                                     </div>
                                 </div>
                                 <span style="background:{s_bg};color:{s_fc};font-size:11px;
@@ -1705,11 +1705,18 @@ if _qp_gunung and _qp_auto_run:
         st.session_state["auto_run_gunung"]  = _qp_gunung
     st.query_params.clear()
 
+# ── Baca pending auto-run SEBELUM sidebar ──
+# _pending_auto tetap ada sampai analisis dieksekusi (tidak di-clear di sidebar)
+_pending_auto = st.session_state.get('auto_run_gunung')
+
 with st.sidebar:
     st.markdown("<h2 style='margin-top:0'>⚙️ Mulai Pendakian</h2>", unsafe_allow_html=True)
     st.markdown("---")
 
     full_list = gunung_list_json + ['Gunung Lain (tanpa peta)']
+
+    # ── Deteksi auto-run (sudah dihitung di atas, tinggal pakai) ──
+    _do_auto_run = bool(_pending_auto and _pending_auto in full_list)
 
     preselect   = st.session_state.get('preselect_gunung', None)
     default_idx = 0
@@ -1725,6 +1732,10 @@ with st.sidebar:
 
     gunung_pilihan = st.selectbox("🏔️ Pilih Gunung", full_list, index=default_idx)
 
+    # Override gunung_pilihan: jika auto-run, paksa gunakan nama dari session_state
+    if _do_auto_run:
+        gunung_pilihan = _pending_auto
+
     # Tampilkan badge peringatan di sidebar jika gunung ditutup
     if gunung_pilihan in GUNUNG_DITUTUP:
         info_tutup = GUNUNG_DITUTUP[gunung_pilihan]
@@ -1737,23 +1748,19 @@ with st.sidebar:
             </div>
         """, unsafe_allow_html=True)
 
-    # ── Cek auto-run dari peta SEBELUM apapun ──
-    _auto        = st.session_state.get('auto_run_gunung')
-    _do_auto_run = bool(_auto and _auto == gunung_pilihan)
+        # ── Kebugaran ──
+    # FIX: gunakan session_state key pada slider agar nilai bisa di-set secara
+    # programmatik SEBELUM widget di-render. Dengan begitu Streamlit membaca nilai
+    # dari session_state (bukan dari value= param yang diabaikan jika state sudah ada),
+    # sehingga slider benar-benar menampilkan 'Sedang' saat auto-run.
     if _do_auto_run:
-        # Simpan nama gunung sebelum di-clear untuk dipakai di UI
-        _auto_gunung_name = _auto
-        st.session_state['auto_run_gunung']  = None
-        st.session_state['preselect_gunung'] = None
-    else:
-        _auto_gunung_name = gunung_pilihan
+        # Set state KEY dulu → slider akan membaca nilai ini saat di-render
+        st.session_state['_slider_kebugaran'] = 'Sedang'
 
-    # Kebugaran: default Sedang saat auto-run dari peta
-    _default_keb = 'Sedang' if _do_auto_run else 'Rendah'
     kebugaran = st.select_slider(
         "💪 Tingkat Kebugaran Fisik",
         options=['Rendah', 'Sedang', 'Tinggi'],
-        value=_default_keb,
+        key='_slider_kebugaran',
     )
 
     keb_desc = {
@@ -1798,7 +1805,7 @@ with st.sidebar:
             <div style="background:#e8f5e9;border-radius:10px;padding:10px 14px;
                         font-size:13px;color:#1B5E20;font-weight:600;margin-bottom:8px;
                         border-left:4px solid #2E7D32;">
-                🚀 Memulai analisis otomatis untuk <b>{_auto_gunung_name}</b>…
+                🚀 Memulai analisis otomatis untuk <b>{gunung_pilihan}</b>…
             </div>
         """, unsafe_allow_html=True)
 
@@ -1824,8 +1831,17 @@ if gunung_pilihan != 'Gunung Lain (tanpa peta)' and jalur_data:
 #  ANALISIS EXECUTION
 # ─────────────────────────────────────────────
 if run_button:
-    st.session_state['preselect_gunung'] = None
-    st.session_state['analysis_run']     = False
+    st.session_state['preselect_gunung']        = None
+    st.session_state['analysis_run']            = False
+    st.session_state['auto_run_gunung']         = None
+    st.session_state['_pending_auto_kebugaran'] = None
+
+    # Recalc jalur_list di sini dengan gunung & kebugaran yang sudah pasti benar
+    # (setelah auto-run override diterapkan di sidebar)
+    if gunung_pilihan != 'Gunung Lain (tanpa peta)' and jalur_data:
+        jalur_list, is_exact, redirect_msg = get_jalur_by_kebugaran(
+            jalur_data, gunung_pilihan, kebugaran
+        )
 
     if gunung_pilihan == 'Gunung Lain (tanpa peta)' or not jalur_list:
         st.warning("Pilih gunung dari dataset untuk menjalankan analisis lengkap.")
@@ -1909,16 +1925,39 @@ if run_button:
             'ai_ulasan': ai_community,
         },
     })
-    st.rerun()
+    # ── FIX: HAPUS st.rerun() ──────────────────────────────────────────────────
+    # st.rerun() menyebabkan race condition:
+    #   Run ke-2 → _do_auto_run=False → slider kembali ke 'Rendah' via widget state.
+    #   Jika button widget masih True di extra-rerun, `if run_button:` jalan lagi →
+    #   analysis_run di-reset False → render gagal → halaman kosong / kebugaran salah.
+    # Solusi: biarkan eksekusi jatuh ke blok RENDERING HASIL di bawah dalam RUN YANG SAMA.
+    # session_state sudah di-update di atas → analysis_ready=True → render langsung benar.
+    # ─────────────────────────────────────────────────────────────────────────────
 
 # ─────────────────────────────────────────────
 #  RENDERING HASIL
 # ─────────────────────────────────────────────
-analysis_ready = (
-    st.session_state['analysis_run']
-    and st.session_state['current_gunung']    == gunung_pilihan
-    and st.session_state['current_kebugaran'] == kebugaran
+# Baca SELALU dari session_state — bukan dari widget — karena:
+#   (a) Dalam run auto-run: nilai baru saja di-update di blok if run_button di atas.
+#   (b) Dalam run normal (user klik gunung lain, dll): session_state tetap akurat.
+_render_gunung    = st.session_state.get('current_gunung')
+_render_kebugaran = st.session_state.get('current_kebugaran')
+
+analysis_ready = bool(
+    st.session_state.get('analysis_run')
+    and _render_gunung
+    and _render_kebugaran
 )
+
+# Override gunung_pilihan & kebugaran dengan nilai dari session_state
+# agar seluruh blok rendering di bawah pakai data yang konsisten
+if analysis_ready:
+    gunung_pilihan = _render_gunung
+    kebugaran      = _render_kebugaran
+    if jalur_data:
+        jalur_list, is_exact, redirect_msg = get_jalur_by_kebugaran(
+            jalur_data, gunung_pilihan, kebugaran
+        )
 
 if analysis_ready and jalur_list:
     ai_descs = st.session_state.get('jalur_descriptions', {})
