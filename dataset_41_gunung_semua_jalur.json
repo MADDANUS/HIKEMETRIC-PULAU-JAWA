@@ -1,0 +1,1041 @@
+[
+  {
+    "gunung": "Andong",
+    "jalur": [
+      {
+        "nama_jalur": "Sawit",
+        "jarak_km": 3.2,
+        "estimasi_naik": "1.5-2.5 jam",
+        "estimasi_turun": "1-1.5 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Pendem",
+        "jarak_km": 3.5,
+        "estimasi_naik": "1.5-2.5 jam",
+        "estimasi_turun": "1-1.5 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Gogik",
+        "jarak_km": 3.3,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Anjasmoro",
+    "jalur": [
+      {
+        "nama_jalur": "Wonosalam",
+        "jarak_km": 12.0,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Rejosari",
+        "jarak_km": 10.5,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Argopuro",
+    "jalur": [
+      {
+        "nama_jalur": "Baderan",
+        "jarak_km": 34.0,
+        "estimasi_naik": "16-20 jam",
+        "estimasi_turun": "10-13 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Bremi",
+        "jarak_km": 32.0,
+        "estimasi_naik": "14-18 jam",
+        "estimasi_turun": "9-12 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Arjuno",
+    "jalur": [
+      {
+        "nama_jalur": "Tretes",
+        "jarak_km": 14.5,
+        "estimasi_naik": "9-12 jam",
+        "estimasi_turun": "6-7 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Lawang",
+        "jarak_km": 10.5,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Purwosari",
+        "jarak_km": 12.5,
+        "estimasi_naik": "8-10 jam",
+        "estimasi_turun": "5-6 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Bismo",
+    "jalur": [
+      {
+        "nama_jalur": "Sikunang",
+        "jarak_km": 2.2,
+        "estimasi_naik": "1.5-2 jam",
+        "estimasi_turun": "1-1.5 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Deroduwur",
+        "jarak_km": 5.5,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Burangrang",
+    "jalur": [
+      {
+        "nama_jalur": "Legok Haji",
+        "jarak_km": 3.8,
+        "estimasi_naik": "3-4 jam",
+        "estimasi_turun": "2-2.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Butak",
+    "jalur": [
+      {
+        "nama_jalur": "Sirah Kencong",
+        "jarak_km": 8.5,
+        "estimasi_naik": "5-7 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Panderman",
+        "jarak_km": 10.0,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Kebun Teh Wonosari",
+        "jarak_km": 11.5,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "5-6 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Ciremai",
+    "jalur": [
+      {
+        "nama_jalur": "Apuy",
+        "jarak_km": 6.5,
+        "estimasi_naik": "6-7 jam",
+        "estimasi_turun": "3.5-4.5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Palutungan",
+        "jarak_km": 8.2,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Linggarjati",
+        "jarak_km": 9.5,
+        "estimasi_naik": "9-11 jam",
+        "estimasi_turun": "6-7 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Trisakti Sadarehe",
+        "jarak_km": 9.0,
+        "estimasi_naik": "8-10 jam",
+        "estimasi_turun": "5-6 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Cikuray",
+    "jalur": [
+      {
+        "nama_jalur": "Pemancar",
+        "jarak_km": 5.3,
+        "estimasi_naik": "5-6 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Cikajang",
+        "jarak_km": 7.5,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Bayongbong",
+        "jarak_km": 5.8,
+        "estimasi_naik": "6-7 jam",
+        "estimasi_turun": "3.5-4.5 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Galunggung",
+    "jalur": [
+      {
+        "nama_jalur": "Cidahu",
+        "jarak_km": 2.5,
+        "estimasi_naik": "1.5-2 jam",
+        "estimasi_turun": "1 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Linggajati",
+        "jarak_km": 4.0,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "2 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Sagara",
+        "jarak_km": 3.5,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Gede Pangrango",
+    "jalur": [
+      {
+        "nama_jalur": "Cibodas",
+        "jarak_km": 9.7,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Gunung Putri",
+        "jarak_km": 6.8,
+        "estimasi_naik": "4-5.5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Selabintana",
+        "jarak_km": 12.5,
+        "estimasi_naik": "9-11 jam",
+        "estimasi_turun": "6-7 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Guntur",
+    "jalur": [
+      {
+        "nama_jalur": "Citiis",
+        "jarak_km": 4.8,
+        "estimasi_naik": "3.5-5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Pasirwangi",
+        "jarak_km": 6.0,
+        "estimasi_naik": "4.5-6 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Halimun",
+    "jalur": [
+      {
+        "nama_jalur": "Citalahab",
+        "jarak_km": 5.5,
+        "estimasi_naik": "4-5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Gunung Botol",
+        "jarak_km": 6.5,
+        "estimasi_naik": "4.5-6 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Kelud",
+    "jalur": [
+      {
+        "nama_jalur": "Karangrejo",
+        "jarak_km": 4.5,
+        "estimasi_naik": "3-4 jam",
+        "estimasi_turun": "2 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Tulungrejo",
+        "jarak_km": 5.2,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Kembang",
+    "jalur": [
+      {
+        "nama_jalur": "Blembem",
+        "jarak_km": 3.1,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Lengkong",
+        "jarak_km": 4.2,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Lawu",
+    "jalur": [
+      {
+        "nama_jalur": "Cemoro Sewu",
+        "jarak_km": 6.8,
+        "estimasi_naik": "4-6 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Cemoro Kandang",
+        "jarak_km": 9.0,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Candi Cetho",
+        "jarak_km": 11.2,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "4.5-6 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Singolangu",
+        "jarak_km": 9.5,
+        "estimasi_naik": "6.5-8.5 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Liman",
+    "jalur": [
+      {
+        "nama_jalur": "Bajulmati",
+        "jarak_km": 8.5,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Manglayang",
+    "jalur": [
+      {
+        "nama_jalur": "Batu Kuda",
+        "jarak_km": 2.5,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Barubeureum",
+        "jarak_km": 2.2,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Merapi",
+    "jalur": [
+      {
+        "nama_jalur": "Selo",
+        "jarak_km": 4.5,
+        "estimasi_naik": "4-5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Babadan",
+        "jarak_km": 5.5,
+        "estimasi_naik": "5-6 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "New Selo",
+        "jarak_km": 4.5,
+        "estimasi_naik": "4-5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Merbabu",
+    "jalur": [
+      {
+        "nama_jalur": "Selo",
+        "jarak_km": 5.8,
+        "estimasi_naik": "5-7 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Suwanting",
+        "jarak_km": 5.5,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "3.5-4.5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Wekas",
+        "jarak_km": 6.2,
+        "estimasi_naik": "5-6 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Thekelan",
+        "jarak_km": 7.5,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Cunthel",
+        "jarak_km": 7.0,
+        "estimasi_naik": "6-7.5 jam",
+        "estimasi_turun": "4 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Papandayan",
+    "jalur": [
+      {
+        "nama_jalur": "Camp David",
+        "jarak_km": 3.5,
+        "estimasi_naik": "2-2.5 jam",
+        "estimasi_turun": "1.5 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Cisurupan",
+        "jarak_km": 4.5,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Patuha",
+    "jalur": [
+      {
+        "nama_jalur": "Situ Patenggang",
+        "jarak_km": 4.5,
+        "estimasi_naik": "3-4 jam",
+        "estimasi_turun": "2 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Ciwalini",
+        "jarak_km": 3.8,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Penanggungan",
+    "jalur": [
+      {
+        "nama_jalur": "Tamiajeng",
+        "jarak_km": 3.5,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Jolotundo",
+        "jarak_km": 5.2,
+        "estimasi_naik": "4-5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Prau",
+    "jalur": [
+      {
+        "nama_jalur": "Patak Banteng",
+        "jarak_km": 3.0,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Dieng",
+        "jarak_km": 3.8,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "2 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Dwarawati",
+        "jarak_km": 3.2,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Kalilembu",
+        "jarak_km": 3.5,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Rakutak",
+    "jalur": [
+      {
+        "nama_jalur": "Cibeureum",
+        "jarak_km": 6.5,
+        "estimasi_naik": "4-5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Salak",
+    "jalur": [
+      {
+        "nama_jalur": "Cidahu",
+        "jarak_km": 7.5,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Ajisaka",
+        "jarak_km": 5.5,
+        "estimasi_naik": "5-7 jam",
+        "estimasi_turun": "3.5-4.5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Pasir Reungit",
+        "jarak_km": 8.0,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Sanghyang",
+    "jalur": [
+      {
+        "nama_jalur": "Cibolang",
+        "jarak_km": 5.0,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Semeru",
+    "jalur": [
+      {
+        "nama_jalur": "Ranu Pani",
+        "jarak_km": 19.0,
+        "estimasi_naik": "11-14 jam",
+        "estimasi_turun": "6-8 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Sindoro",
+    "jalur": [
+      {
+        "nama_jalur": "Kledung",
+        "jarak_km": 6.5,
+        "estimasi_naik": "5-6.5 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Sigedang",
+        "jarak_km": 5.5,
+        "estimasi_naik": "4.5-5.5 jam",
+        "estimasi_turun": "3 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Alang-Alang Sewu",
+        "jarak_km": 6.0,
+        "estimasi_naik": "5-6 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Ndoro Arum",
+        "jarak_km": 6.2,
+        "estimasi_naik": "5-6.5 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Slamet",
+    "jalur": [
+      {
+        "nama_jalur": "Bambangan",
+        "jarak_km": 8.5,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Guci",
+        "jarak_km": 10.2,
+        "estimasi_naik": "8-10 jam",
+        "estimasi_turun": "5-6 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Dipajaya",
+        "jarak_km": 8.0,
+        "estimasi_naik": "7-8.5 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Kaliwadas",
+        "jarak_km": 11.0,
+        "estimasi_naik": "8-11 jam",
+        "estimasi_turun": "5-7 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Sumbing",
+    "jalur": [
+      {
+        "nama_jalur": "Garung",
+        "jarak_km": 7.2,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "3.5-4.5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Banaran",
+        "jarak_km": 8.5,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "4.5-5.5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Bowongso",
+        "jarak_km": 6.0,
+        "estimasi_naik": "5-6.5 jam",
+        "estimasi_turun": "3.5-4 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Sipetung",
+        "jarak_km": 7.5,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Seman",
+        "jarak_km": 8.0,
+        "estimasi_naik": "6.5-8.5 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Tangkuban Perahu",
+    "jalur": [
+      {
+        "nama_jalur": "Jayagiri",
+        "jarak_km": 4.5,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Tapak",
+    "jalur": [
+      {
+        "nama_jalur": "Candikuning",
+        "jarak_km": 4.0,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Telomoyo",
+    "jalur": [
+      {
+        "nama_jalur": "Dalangan",
+        "jarak_km": 5.5,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Telong",
+    "jalur": [
+      {
+        "nama_jalur": "Pepayungan",
+        "jarak_km": 5.5,
+        "estimasi_naik": "3.5-5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Ungaran",
+    "jalur": [
+      {
+        "nama_jalur": "Mawar",
+        "jarak_km": 4.2,
+        "estimasi_naik": "2.5-3.5 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      },
+      {
+        "nama_jalur": "Gedongsongo",
+        "jarak_km": 5.5,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Medini",
+        "jarak_km": 6.0,
+        "estimasi_naik": "4-5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Wayang",
+    "jalur": [
+      {
+        "nama_jalur": "Pangalengan",
+        "jarak_km": 3.5,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Welirang",
+    "jalur": [
+      {
+        "nama_jalur": "Tretes",
+        "jarak_km": 12.0,
+        "estimasi_naik": "7-9 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Sumber Brantas",
+        "jarak_km": 8.5,
+        "estimasi_naik": "5-7 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Wilis",
+    "jalur": [
+      {
+        "nama_jalur": "Bajulan",
+        "jarak_km": 15.0,
+        "estimasi_naik": "9-12 jam",
+        "estimasi_turun": "6-8 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Ngliman",
+        "jarak_km": 16.5,
+        "estimasi_naik": "10-13 jam",
+        "estimasi_turun": "7-9 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Ijen",
+    "jalur": [
+      {
+        "nama_jalur": "Paltuding",
+        "jarak_km": 3.4,
+        "estimasi_naik": "1.5-2.5 jam",
+        "estimasi_turun": "1-1.5 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Bongkok",
+    "jalur": [
+      {
+        "nama_jalur": "Cikandang (Purwakarta)",
+        "jarak_km": 2.2,
+        "estimasi_naik": "1.5-2 jam",
+        "estimasi_turun": "1 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Parang",
+    "jalur": [
+      {
+        "nama_jalur": "Pasanggrahan (Purwakarta)",
+        "jarak_km": 2.5,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Sanggabuana",
+    "jalur": [
+      {
+        "nama_jalur": "Mekarbuana (Karawang)",
+        "jarak_km": 4.5,
+        "estimasi_naik": "3-4 jam",
+        "estimasi_turun": "2-2.5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Sukajaya (Bogor)",
+        "jarak_km": 5.2,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Tampomas",
+    "jalur": [
+      {
+        "nama_jalur": "Narimbang (Sumedang)",
+        "jarak_km": 5.5,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Cibeureum",
+        "jarak_km": 4.8,
+        "estimasi_naik": "3-4 jam",
+        "estimasi_turun": "2-2.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Pulosari",
+    "jalur": [
+      {
+        "nama_jalur": "Cilentung (Pandeglang)",
+        "jarak_km": 3.8,
+        "estimasi_naik": "2-3 jam",
+        "estimasi_turun": "1.5-2 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Karang",
+    "jalur": [
+      {
+        "nama_jalur": "Kaduengang (Pandeglang)",
+        "jarak_km": 4.2,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2-2.5 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Pasir Angin",
+        "jarak_km": 6.5,
+        "estimasi_naik": "5-6.5 jam",
+        "estimasi_turun": "3.5-4.5 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  },
+  {
+    "gunung": "Kawi",
+    "jalur": [
+      {
+        "nama_jalur": "Kraton (Malang)",
+        "jarak_km": 8.5,
+        "estimasi_naik": "5-7 jam",
+        "estimasi_turun": "3-4 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Precet",
+        "jarak_km": 9.2,
+        "estimasi_naik": "6-8 jam",
+        "estimasi_turun": "4-5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Malabar",
+    "jalur": [
+      {
+        "nama_jalur": "Puncak Puntang (Bandung)",
+        "jarak_km": 7.5,
+        "estimasi_naik": "5-6.5 jam",
+        "estimasi_turun": "3.5-4.5 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Puncak Haruman",
+        "jarak_km": 6.0,
+        "estimasi_naik": "4-5 jam",
+        "estimasi_turun": "2.5-3.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Muria",
+    "jalur": [
+      {
+        "nama_jalur": "Rahtawu (Puncak Natas Angin)",
+        "jarak_km": 5.2,
+        "estimasi_naik": "3.5-4.5 jam",
+        "estimasi_turun": "2-3 jam",
+        "kesulitan": "Menengah"
+      },
+      {
+        "nama_jalur": "Tempur (Puncak Songolikur)",
+        "jarak_km": 4.8,
+        "estimasi_naik": "3-4 jam",
+        "estimasi_turun": "2-2.5 jam",
+        "kesulitan": "Menengah"
+      }
+    ]
+  },
+  {
+    "gunung": "Bromo",
+    "jalur": [
+      {
+        "nama_jalur": "Cemoro Lawang (Trekking)",
+        "jarak_km": 4.5,
+        "estimasi_naik": "1.5-2.5 jam",
+        "estimasi_turun": "1-1.5 jam",
+        "kesulitan": "Pemula"
+      }
+    ]
+  },
+  {
+    "gunung": "Raung",
+    "jalur": [
+      {
+        "nama_jalur": "Kalibaru (Banyuwangi)",
+        "jarak_km": 16.5,
+        "estimasi_naik": "14-17 jam",
+        "estimasi_turun": "9-11 jam",
+        "kesulitan": "Ahli"
+      },
+      {
+        "nama_jalur": "Sumberwringin (Bondowoso)",
+        "jarak_km": 14.0,
+        "estimasi_naik": "9-11 jam",
+        "estimasi_turun": "6-7 jam",
+        "kesulitan": "Ahli"
+      }
+    ]
+  }
+]

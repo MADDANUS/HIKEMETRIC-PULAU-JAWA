@@ -1,0 +1,100 @@
+Durasi,Kategori,Perlengkapan,Jumlah,Keterangan
+1 Hari,Umum,Tas Daypack 20-30L,1,Tas ringan
+1 Hari,Umum,Jaket Gunung,1,Anti angin dan dingin
+1 Hari,Umum,Jas Hujan/Ponco,1,Antisipasi hujan
+1 Hari,Umum,Topi,1,Perlindungan panas
+1 Hari,Umum,Headlamp/Senter,1,Cadangan jika pulang malam
+1 Hari,Umum,Powerbank,1,Cadangan baterai
+1 Hari,Umum,P3K Mini,1,Obat pribadi dan plester
+1 Hari,Umum,Trekking Pole,1 pasang,Opsional
+1 Hari,Umum,Sarung Tangan,1 pasang,Daerah dingin
+1 Hari,Umum,Masker/Buff,1,Debu dan dingin
+1 Hari,Makanan,Nasi/Bekal,2 porsi,Makan utama
+1 Hari,Makanan,Roti/Biskuit,3 bungkus,Snack energi
+1 Hari,Makanan,Coklat/Energy Bar,4,Tambahan energi
+1 Hari,Makanan,Buah,2,Pisang atau apel
+1 Hari,Hidrasi,Air Mineral,3 liter,Tergantung jalur
+1 Hari,Hidrasi,Minuman Elektrolit,1 botol,Mengganti ion tubuh
+2 Hari,Umum,Carrier 40-50L,1,Kapasitas sedang
+2 Hari,Umum,Tenda,1,Sharing lebih ringan
+2 Hari,Umum,Sleeping Bag,1,Menahan dingin
+2 Hari,Umum,Matras,1,Alas tidur
+2 Hari,Umum,Jaket Gunung,1,Wajib
+2 Hari,Umum,Jas Hujan/Ponco,1,Wajib
+2 Hari,Umum,Headlamp,1,Malam hari
+2 Hari,Umum,Kompor Portable,1,Sharing kelompok
+2 Hari,Umum,Gas Portable,2,Sesuai kebutuhan
+2 Hari,Umum,Nesting/Masak,1 set,Memasak
+2 Hari,Umum,P3K,1,Obat dan pertolongan
+2 Hari,Umum,Pakaian Ganti,2 set,Tidur dan turun
+2 Hari,Umum,Sandal Gunung,1,Camp
+2 Hari,Makanan,Beras,500 gram,2 kali makan
+2 Hari,Makanan,Lauk Instan,4 bungkus,Sarden atau kornet
+2 Hari,Makanan,Mie Instan,3 bungkus,Cadangan
+2 Hari,Makanan,Roti/Biskuit,5 bungkus,Snack
+2 Hari,Makanan,Kopi/Teh/Susu,Secukupnya,Minuman hangat
+2 Hari,Makanan,Coklat/Energy Bar,5,Energi cepat
+2 Hari,Hidrasi,Air Mineral,5 liter,Disesuaikan sumber air
+2 Hari,Hidrasi,Minuman Elektrolit,2 botol,Recovery tubuh
+3 Hari,Umum,Carrier 50-70L,1,Kapasitas besar
+3 Hari,Umum,Tenda,1,Sharing
+3 Hari,Umum,Sleeping Bag,1,Penting
+3 Hari,Umum,Matras,1,Alas tidur
+3 Hari,Umum,Flysheet,1,Tambahan pelindung
+3 Hari,Umum,Jaket Gunung Tebal,1,Suhu dingin
+3 Hari,Umum,Jas Hujan,1,Wajib
+3 Hari,Umum,Kompor Portable,1,Untuk kelompok
+3 Hari,Umum,Gas Portable,3,Memasak lebih lama
+3 Hari,Umum,Nesting,1 set,Masak
+3 Hari,Umum,Headlamp + Baterai Cadangan,1,Wajib
+3 Hari,Umum,P3K Lengkap,1,Obat lengkap
+3 Hari,Umum,Pakaian Ganti,3 set,Cadangan
+3 Hari,Umum,Kaos Kaki,3 pasang,Menghindari lecet
+3 Hari,Umum,Sarung Tangan,1 pasang,Dingin
+3 Hari,Umum,Buff/Masker,1,Debu dan dingin
+3 Hari,Umum,Sandal Gunung,1,Camp
+3 Hari,Makanan,Beras,1 kg,3 hari
+3 Hari,Makanan,Lauk Instan,6 bungkus,Protein
+3 Hari,Makanan,Telur,6,Opsional
+3 Hari,Makanan,Mie Instan,6 bungkus,Cadangan
+3 Hari,Makanan,Oatmeal/Sereal,3 porsi,Sarapan
+3 Hari,Makanan,Snack/Biskuit,8 bungkus,Cemilan
+3 Hari,Makanan,Coklat/Energy Gel,8,Energi cepat
+3 Hari,Makanan,Kopi/Teh/Susu,Secukupnya,Minuman hangat
+3 Hari,Hidrasi,Air Mineral,7 liter,Tergantung sumber air
+3 Hari,Hidrasi,Minuman Elektrolit,4 botol,Menjaga stamina
+3 Hari,Hidrasi,Water Purifier/Filter,1,Jika ada sumber air
+Argopuro 4 Hari,Umum,Carrier 60-80L,1,Jalur panjang dan berat
+Argopuro 4 Hari,Umum,Tenda,1,Sharing kelompok
+Argopuro 4 Hari,Umum,Sleeping Bag Extreme,1,Suhu sangat dingin
+Argopuro 4 Hari,Umum,Matras,1,Alas tidur
+Argopuro 4 Hari,Umum,Flysheet,1,Proteksi hujan dan angin
+Argopuro 4 Hari,Umum,Jaket Gunung Tebal,1,Wajib
+Argopuro 4 Hari,Umum,Jas Hujan,1,Cuaca tidak menentu
+Argopuro 4 Hari,Umum,Sepatu Gunung Waterproof,1,Jalur panjang dan lembab
+Argopuro 4 Hari,Umum,Sandal Gunung,1,Camp
+Argopuro 4 Hari,Umum,Headlamp + Baterai Cadangan,1,Penting untuk summit dini hari
+Argopuro 4 Hari,Umum,Powerbank Besar,1,Cadangan daya
+Argopuro 4 Hari,Umum,Kompor Portable,1,Masak kelompok
+Argopuro 4 Hari,Umum,Gas Portable,4,Kebutuhan memasak lama
+Argopuro 4 Hari,Umum,Nesting,1 set,Masak
+Argopuro 4 Hari,Umum,Trekking Pole,1 pasang,Membantu jalur panjang
+Argopuro 4 Hari,Umum,P3K Lengkap,1,Antisipasi cedera
+Argopuro 4 Hari,Umum,Emergency Blanket,1,Keadaan darurat
+Argopuro 4 Hari,Umum,Kaos Kaki,4 pasang,Menghindari lecet
+Argopuro 4 Hari,Umum,Pakaian Ganti,4 set,Durasi panjang
+Argopuro 4 Hari,Umum,Sarung Tangan,1 pasang,Dingin
+Argopuro 4 Hari,Umum,Buff/Masker,1,Debu dan dingin
+Argopuro 4 Hari,Makanan,Beras,1.5 kg,Kebutuhan 4 hari
+Argopuro 4 Hari,Makanan,Lauk Instan,8 bungkus,Protein
+Argopuro 4 Hari,Makanan,Mie Instan,8 bungkus,Cadangan energi
+Argopuro 4 Hari,Makanan,Oatmeal/Sereal,4 porsi,Sarapan cepat
+Argopuro 4 Hari,Makanan,Sarden/Kornet,4 kaleng,Lauk praktis
+Argopuro 4 Hari,Makanan,Snack Energi,10 bungkus,Cadangan tenaga
+Argopuro 4 Hari,Makanan,Coklat/Energy Gel,10,Energi cepat
+Argopuro 4 Hari,Makanan,Kopi/Teh/Susu,Secukupnya,Minuman hangat
+Argopuro 4 Hari,Makanan,Gula,250 gram,Tambahan energi
+Argopuro 4 Hari,Hidrasi,Air Mineral,8 liter,Jalur sangat panjang
+Argopuro 4 Hari,Hidrasi,Minuman Elektrolit,5 botol,Mengurangi dehidrasi
+Argopuro 4 Hari,Hidrasi,Water Purifier/Filter,1,Sumber air terbatas
+Argopuro 4 Hari,Hidrasi,Tumbler/Water Bladder,1,Kapasitas besar
