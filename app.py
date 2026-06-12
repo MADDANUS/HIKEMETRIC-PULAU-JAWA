@@ -16,7 +16,7 @@ def apply_theme():
     }
 
     /* ── HIDE default streamlit header/footer decoration ── */
-    #MainMenu, footer, header { visibility: hidden; }
+    footer { visibility: hidden; }
     /* Sidebar navigasi halaman (menu Dashboard, Pendakian, About) */
     [data-testid="stSidebarNav"] a span,
     [data-testid="stSidebarNav"] span,
@@ -259,7 +259,7 @@ def home_page():
         st.markdown("""
             <div class="hm-card" style="text-align:center; padding: 24px 16px;">
                 <div style="font-size:36px; margin-bottom:8px;">🌦️</div>
-                <div style="font-size:28px; font-weight:800; color:#2E7D32;">5-Hari</div>
+                <div style="font-size:28px; font-weight:800; color:#2E7D32;">3 Hari</div>
                 <div style="font-size:13px; color:#777; margin-top:4px;">Prakiraan Cuaca Akurat</div>
             </div>
         """, unsafe_allow_html=True)

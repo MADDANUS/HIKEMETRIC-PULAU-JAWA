@@ -16,7 +16,7 @@ def apply_theme():
         color: #1a1a1a !important;
     }
 
-    #MainMenu, footer, header { visibility: hidden; }
+    footer{ visibility: hidden; }
     
     /* Sidebar navigasi halaman (menu Dashboard, Pendakian, About) */
     [data-testid="stSidebarNav"] a span,
@@ -224,7 +224,7 @@ def about_page():
     metrics = [
         ("⛰️", "5+", "Gunung Tersedia"),
         ("🤖", "AI", "Rekomendasi Personal"),
-        ("🌤️", "5 Hari", "Prakiraan Cuaca"),
+        ("🌤️", "3 Hari", "Prakiraan Cuaca"),
         ("🗺️", "GPX", "Peta Interaktif"),
     ]
     for col, (icon, val, label) in zip([col1, col2, col3, col4], metrics):

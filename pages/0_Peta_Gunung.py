@@ -7,7 +7,7 @@ import re as _re
 from pathlib import Path
 
 st.set_page_config(
-    page_title="HikeMetric · Peta Gunung Jawa",
+    page_title="HikeMetric · Peta Gunung",
     page_icon="⛰️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -196,7 +196,7 @@ def apply_theme():
         color: var(--text) !important;
         font-family: 'Plus Jakarta Sans', sans-serif !important;
     }
-    #MainMenu, footer, header { visibility: hidden; }
+    footer{ visibility: hidden; }
 
     /* ── Sidebar ── */
     [data-testid="stSidebar"] {
@@ -437,7 +437,7 @@ apply_theme()
 st.markdown("""
 <div class="hm-navbar">
     <span class="hm-logo">⛰ HikeMetric</span>
-    <span class="hm-sub">Peta Interaktif Gunung Jawa &amp; Sekitarnya</span>
+    <span class="hm-sub">Peta Interaktif </span>
 </div>
 """, unsafe_allow_html=True)
 

@@ -31,7 +31,7 @@ def apply_custom_style():
         color: #1a1a1a !important;
     }
 
-    #MainMenu, footer, header { visibility: hidden; }
+    footer{ visibility: hidden; }
 
     [data-testid="stSidebarNav"] a span,
     [data-testid="stSidebarNav"] span,
@@ -1377,7 +1377,7 @@ def render_logistik_cards(logistik_dict: dict, durasi_label: str):
         f'border:1.5px solid {dfc};">'
         f'<span style="font-size:18px;">{dlabel}</span>'
         f'<span style="font-size:12px;color:{dfc};font-weight:700;'
-        f'background:white;padding:3px 10px;border-radius:20px;">Dataset Resmi</span>'
+        f'background:white;padding:3px 10px;border-radius:20px;"></span>'
         f'</div>',
         unsafe_allow_html=True
     )
@@ -2014,7 +2014,6 @@ if analysis_ready and jalur_list:
             ('⚡', 'Hindari puncak saat badai petir — turun sebelum sore hari'),
         ],
         'Ahli':     [
-            ('🪢', 'Gunakan tali dan harness untuk jalur teknis berbatu'),
             ('🌡️', 'Waspadai hipotermia — bawa pakaian berlapis dan rain cover'),
             ('🗺️', 'Hafal titik evakuasi darurat di setiap segmen jalur'),
             ('🫀', 'Lakukan aklimatisasi jika ketinggian >3000 mdpl'),
